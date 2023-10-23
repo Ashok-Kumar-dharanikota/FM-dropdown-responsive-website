@@ -13,13 +13,13 @@ var count2 = 0;
 // Add a click event listener
 feature.addEventListener('click', function () {
     if (count1 == 0) {
-        ddone.style.display = "none";
-        ddArrowOne.src = "./images/icon-arrow-up.svg"
+        ddone.style.display = "block";
+        ddArrowOne.src = "./images/icon-arrow-down.svg"
         count1++;
     }
     else {
-        ddone.style.display = "block";
-        ddArrowOne.src = "./images/icon-arrow-down.svg"
+        ddone.style.display = "none";
+        ddArrowOne.src = "./images/icon-arrow-up.svg"
         count1--;
     }
 });
@@ -27,13 +27,13 @@ feature.addEventListener('click', function () {
 
 company.addEventListener('click', function () {
     if (count2 == 0) {
-        ddtwo.style.display = "none";
-        ddArrowTwo.src = "./images/icon-arrow-up.svg"
+        ddtwo.style.display = "block";
+        ddArrowTwo.src = "./images/icon-arrow-down.svg"
         count2++;
     }
     else {
-        ddtwo.style.display = "block";
-        ddArrowTwo.src = "./images/icon-arrow-down.svg"
+        ddtwo.style.display = "none";
+        ddArrowTwo.src = "./images/icon-arrow-up.svg"
         count2--;
     }
 });
